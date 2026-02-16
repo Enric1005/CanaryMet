@@ -1,0 +1,100 @@
+header {
+    padding: 15px 40px;
+    background-color: cornflowerblue;
+}
+/*===========================================*/
+.zero_line {
+    display: inline-block;
+}
+
+.idioma {
+    padding: 3px 50px;
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    margin-left: 25px;
+}
+
+.dropdown_language {
+    display: none; /* oculto hasta que se haga clic */
+    position: absolute;
+    top: 100%; /* justo debajo del botón */
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 120px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+/* Links dentro del desplegable */
+.dropdown_language a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #333;
+}
+/*===========================================*/
+.first_line {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr auto 2fr;
+    padding: 0 20px;
+    gap: 30px;
+}
+
+.first_line h1 {
+    margin: 0;
+    font-size: 65px;
+}
+
+.center_group {
+    justify-self: center;
+}
+
+.search-bar {
+    padding: 10px 150px;
+    border-radius: 50px;
+}
+
+.filter-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn_user {
+    justify-self: end;
+    width: 80px;              /* mismo ancho */
+    height: 80px;             /* mismo alto */
+    border-radius: 50%;       /* lo hace circular */
+    overflow: hidden;         /* recorta la imagen al círculo */
+    border: none;             /* quita borde por defecto */
+    padding: 0;               /* quita padding interno */
+    cursor: pointer;
+    background: #ffa262;         /* quita fondo gris del botón */
+    margin-right: 50px;
+}
+
+.usuario {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/*===========================================*/
+.second_line ul {
+    display: flex;
+    list-style: disc;
+    justify-content: center;
+    gap: 25px;
+    margin: 10px 10px 10px 10px;
+    padding: 0;
+}
+
+.second_line ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
