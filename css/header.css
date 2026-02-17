@@ -1,12 +1,11 @@
 header {
-    padding: 15px 40px;
     background-color: cornflowerblue;
 }
 /*===========================================*/
 .zero_line {
     display: inline-block;
 }
-
+/* Boton idioma */
 .idioma {
     padding: 3px 50px;
     cursor: pointer;
@@ -16,6 +15,7 @@ header {
     margin-left: 25px;
 }
 
+/* Desplegables (se programa después con js)*/
 .dropdown_language {
     display: none; /* oculto hasta que se haga clic */
     position: absolute;
@@ -44,12 +44,13 @@ header {
     padding: 0 20px;
     gap: 30px;
 }
-
+/* Titulo de la página*/
 .first_line h1 {
     margin: 0;
     font-size: 65px;
 }
 
+/* centro de la linea uno (buscador y filtro)*/
 .center_group {
     justify-self: center;
 }
@@ -64,6 +65,7 @@ header {
     cursor: pointer;
 }
 
+/* Boton usuario */
 .btn_user {
     justify-self: end;
     width: 80px;              /* mismo ancho */
