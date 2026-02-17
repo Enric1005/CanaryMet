@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-color: cornflowerblue;
 }
@@ -75,7 +81,7 @@ header {
     border: none;             /* quita borde por defecto */
     padding: 0;               /* quita padding interno */
     cursor: pointer;
-    background: #ffa262;         /* quita fondo gris del botón */
+    background: white;         /* quita fondo gris del botón */
     margin-right: 50px;
 }
 
