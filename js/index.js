@@ -11,3 +11,5 @@ var map = L.map('map').setView([28.123, -15.43], 12);
     L.marker([28.135, -15.42])
     .addTo(map)
     .bindPopup("Hospital 2");
+
+
