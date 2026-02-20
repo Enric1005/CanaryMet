@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3caa2505-d785-48e8-81b2-562e857942a0" name="Changes" comment="Commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="39qzn4UAmoKluVj0j50MwYC1mIv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.login.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.preferred.runtime.type.id": "node",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_interpreter_path": "C:/Users/erick_lxsq22o/AppData/Roaming/JetBrains/WebStorm2025.3/node/versions/24.13.1/node",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3caa2505-d785-48e8-81b2-562e857942a0" name="Changes" comment="" />
+      <created>1771438554490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771438554490</updated>
+      <workItem from="1771438556325" duration="1596000" />
+      <workItem from="1771551476456" duration="2841000" />
+      <workItem from="1771608249404" duration="2711000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added Login template">
+      <option name="closed" value="true" />
+      <created>1771438880324</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771438880324</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Login css">
+      <option name="closed" value="true" />
+      <created>1771439007328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771439007328</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finished login HTML">
+      <option name="closed" value="true" />
+      <created>1771553100299</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771553100299</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Styled components">
+      <option name="closed" value="true" />
+      <created>1771553879802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771553879802</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Profile right box HTML and CSS (template)">
+      <option name="closed" value="true" />
+      <created>1771609249225</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771609249225</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1771610139238</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771610139238</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Login template" />
+    <MESSAGE value="Added Login css" />
+    <MESSAGE value="Finished login HTML" />
+    <MESSAGE value="Styled components" />
+    <MESSAGE value="Added Profile right box HTML and CSS (template)" />
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+  </component>
+</project>
