@@ -1,0 +1,17 @@
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#bloque_formulario {
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 300px;
+}
+
+#usuario{
+
+}
