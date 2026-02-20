@@ -1,0 +1,13 @@
+
+#container {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: center;
+}
