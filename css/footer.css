@@ -15,7 +15,7 @@ body {
 
 /* Footer principal */
 footer {
-    background: cornflowerblue;
+    background: gray;
     color: white;
     padding: 50px 0 30px;
     margin-top: auto;
@@ -93,7 +93,7 @@ footer {
     bottom: 0;
     width: 40px;
     height: 2px;
-    background: #ffd700;
+    background: black;
     transition: width 0.3s ease;
 }
 
