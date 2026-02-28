@@ -87,7 +87,7 @@ El listado de páginas HTML junto con sus respectivos mockups.
 
 ---
 
-###**Centros**
+### **Centros**
 
 - Lista de centros: Imagen, Nombre, Ubicación, Descripción
 
