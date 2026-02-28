@@ -1,9 +1,9 @@
 # CanaryMed
 
 ## Autores
-Enrique Sosa Ojeda
-Sergio Bañol Castaño
-Erick Justo Sosa
+Enrique Sosa Ojeda.
+Sergio Bañol Castaño.
+Erick Justo Sosa.
 
 ## Descripción del proyecto
 El propósito de CanaryMed es facilitar la vida de los ciudadanos canarios y contribuir a la mejora de su salud. Para ello, la plataforma permitirá visualizar los distintos centros médicos disponibles en una lista, mostrando información relevante como su ubicación, precios y especialidades.
