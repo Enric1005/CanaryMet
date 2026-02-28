@@ -8,48 +8,144 @@ Sergio Bañol Castaño
 Erick Justo Sosa
 
 ## Descripción del proyecto
-El propósito de CanaryMed es facilitar la vida de los ciudadanos canarios y contribuir a la mejora de su salud. Para ello, la plataforma permitirá visualizar los distintos centros médicos disponibles en una lista, mostrando información relevante como su ubicación, precios y especialidades.
+El propósito de CanaryMed es facilitar la vida de la gente que resida o se encuentre en canarias y contribuir a mejorar su salud. Con ese objetivo, se crea este proyecto con el cual se podrán ver los diferentes centros médicos que estén disponibles en una lista, mostrando información importante entre las cuales estaría su ubicación, precios o especialidades.
 
-La funcionalidad principal del sistema se basa en actuar como un comparador de centros médicos, permitiendo a los usuarios encontrar aquellos que mejor se adapten a sus necesidades y ayudándolos a elegir la opción más adecuada para su tratamiento.
+La funcionalidad principal se basa en actuar como un comparador de centros médicos, permitiendo a los diferentes usuarios buscar los centros que mejor se adapten a sus necesidades.
 
-En su primera versión, el software incluirá únicamente centros ubicados en Gran Canaria, con posibilidad de expansión futura tanto dentro de esta isla como en el resto del archipiélago canario.
+En un comienzo, el software solo incluirá unicamente centros ubicados en Gran canaria, con el objetivo de expandirlo en un futuro con más centros de dentro de la isla como del resto del archipiélago.
 
-El objetivo principal es ayudar a los usuarios a seleccionar el centro médico que mejor se adecúe a sus necesidades específicas.
-
-Desde el punto de vista comercial, el proyecto podrá monetizarse mediante el cobro de comisiones a los centros médicos o a través de una cuota por formar parte de la plataforma.
-
-El proyecto se lanzará inicialmente a nivel regional, con la intención de expandirse progresivamente conforme aumente su uso y popularidad.
+Desde un punto de vista comercial, el proyecto encontraría su rentabilidad mediante el cobro de comisiones a los centros médicos o través de una cuota por el uso de la web.
 
 ## Requisitos funcionales
-El sistema deberá:
 
-Permitir al usuario visualizar un listado de los diferentes centros médicos y las especialidades que ofrece cada uno.
+El sistema deberá cumplir las siguientes requisitos:
 
-Permitir a los usuarios registrarse (alta) y darse de baja en la plataforma.
+1. Permitir al usuario visualizar un listado de los diferentes centros médicos y las especialidades que ofrece cada uno.
 
-Permitir a los centros médicos registrarse en la plataforma.
+2. Permitir a los usuarios registrarse (alta) y darse de baja en la plataforma.
 
-Permitir a los centros médicos añadir, modificar o eliminar especialidades asociadas a su perfil.
+3. Permitir a los centros médicos registrarse en la plataforma.
 
-Notificar por correo electrónico la validación del alta o baja de usuarios y centros médicos.
+4. Permitir a los centros médicos añadir, modificar o eliminar especialidades asociadas a su perfil.
 
-Permitir filtrar centros médicos por especialidad.
+5. Notificar por correo electrónico la validación del alta o baja de usuarios y centros médicos.
 
-Permitir ordenar los centros médicos según criterios como valoración o rango de precios.
+6. Permitir filtrar centros médicos por especialidad.
 
-Permitir consultar la información detallada de una especialidad.
+7. Permitir ordenar los centros médicos según criterios como valoración o rango de precios.
 
-Mostrar la ubicación de los diferentes centros médicos mediante un mapa interactivo.
+8. Permitir consultar la información detallada de una especialidad.
 
-Permitir a los usuarios marcar centros médicos o especialidades como favoritos.
+9. Mostrar la ubicación de los diferentes centros médicos mediante un mapa interactivo.
 
-Permitir comparar centros médicos en función de precio, valoración y especialidades disponibles.
+10. Permitir a los usuarios marcar centros médicos o especialidades como favoritos.
 
+11. Permitir comparar centros médicos en función de precio, valoración y especialidades disponibles.
 ## Documentación
-En el interior del proyecto se encuentra una carpeta denominada documents, donde se incluyen tres archivos PDF que contienen:
+
+En el interior del proyecto se encuentra una carpeta llamada documents, donde se encuentran 3 archivos pdf que contienen lo siguiente:
 
 El listado de páginas HTML junto con sus respectivos mockups.
 
-El listado de templates y mockups utilizados.
+-El listado de templates.
 
-El storyboard del sistema.
+-Los mockups utilizados y el storyboard.
+
+-La explicación de los diferentes mockups es la siguiente:
+
+---
+
+### **HOME**
+
+- Header → Perfil, Buscador, Tabs (Home, Centros, Especialidades, Colabora con Nosotros)
+- Main → Mapa con centros cercanos, 4 centros destacados con nombre y breve descripción
+- Footer: Info básica, contacto, redes
+
+---
+
+### **Inicio de sesión**
+
+- Celdas → Email/Usuario, Contraseña
+- Botones → Iniciar sesión, Registrarse
+- Links: Olvidé contraseña
+
+---
+
+### **Registro / Editar**
+
+- Nombre, Email, Teléfono, Contraseña, Confirmar Contraseña, Fecha de nacimiento, Género, DNI
+- Casilla Términos y privacidad
+- Botón: Crear cuenta / Guardar
+
+---
+
+### **Perfil**
+
+- Datos: Foto, Nombre de usuario, Nombre, Teléfono, Email
+- Opción: Editar perfil, Cerrar sesión
+- Secciones: citas pendientes, centros y especialistas favoritos, historial de citas
+
+---
+
+###**Centros**
+
+- Lista de centros: Imagen, Nombre, Ubicación, Descripción
+
+---
+
+### **Especialidades**
+
+- Lista de especialidades: Imagen, Nombre, Descripción, Botón Ver centros
+
+---
+
+### **Centro (detalle)**
+
+- Nombre, Foto, Rating, Dirección
+- Servicios, Especialidades disponibles
+- Botón: Reservar cita
+
+---
+
+### **Especialidad (detalle)**
+
+- Nombre, Imagen, Descripción corta, Precio
+- Centros disponibles con botón Reservar
+
+---
+
+### **Citas pendientes**
+
+- Lista de citas: Especialidad, Centro, Descripción
+
+---
+
+### **Historial de citas**
+
+- Lista de citas pasadas: Especialidad, Centro, Fecha
+
+---
+
+### **Centros y especialistas favoritos**
+
+- Lista de centros y especialistas favoritos: Especialidad, Centro, Especialista, Descripción
+
+---
+
+### **Colabora con Nosotros**
+
+- Formulario rápido: Nombre, Email, Tipo de usuario
+- Descripción corta: Cómo puedes unirte al proyecto
+- Info de contacto adicional
+- Botón: Enviar solicitud
+
+---
+
+### **Acerca de Nosotros**
+
+- Breve descripción de la empresa
+- Misión y valores
+- Equipo (opcional, fotos + nombres)
+- Redes sociales y contacto
+
+---
